@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#sualista{
+    margin-top: 40px;
+}
+
+#divLista h3{
+    margin-left: 10px;
+}
+#divIncluirTarefa{
+    background-color: rgb(232, 236, 240);
+    padding: 15px;
+}
+
+.tarefa{
+    display: flex;
+    background-color: rgb(217, 222, 226);
+    padding: 15px;
+    font-size: large;
+    border-bottom: solid 1px;
+    margin-top: 5px;
+}
+
+
+.tarefa p{
+    flex: 1;
+    font-size: 20px;
+}
+
+.tarefa button{
+   padding: 4px 15px;
+   margin: 20px;
+}
+
+.tarefa button i{
+    font-size: larger;
+ }
+
+ .btnConc{
+    background-color: rgba(73, 202, 73, 0.705);
+ }
+
+ .btnRmv{
+    background-color: rgba(240, 99, 99, 0.616);
+ }
+
+ #btnAdd{
+    background-color: rgba(91, 130, 202, 0.705);
+
+ }
+
+ #novatarefa{
+    margin-bottom: 10px;
+ }
+
+ /*concluido*/
+ .concluido{
+    font-style: italic;
+    background-color: rgb(116, 120, 124);
+ }
+ .concluido p{
+    text-decoration: line-through;
+ }
+
+ .concluido button:first-of-type{
+   background-color: rgba(73, 202, 73, 0.26);
+}
+.concluido .btnRmv{
+   background-color: rgba(240, 99, 99, 0.377);
+}
+
+ #carregar{
+    background-color: rgba(91, 130, 202, 0.705);
+    font-size: medium;
+    margin-bottom: 10px;
+ }
+
